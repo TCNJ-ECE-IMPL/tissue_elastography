@@ -98,7 +98,7 @@ rfseq = RPread('13-40-57.rf');
 rf_pre = double(rfseq(:,:,24));
 rf_pst = double(rfseq(:,:,124));
 
-filter(500)
+figure(500)
 [s,d,c] = EstStrn(rf_pre,rf_pst,96,64,32,0.01,0,0.025,'g');
 subplot(3, 3, 1), imagesc(s), colorbar
 [s,d,c] = EstStrn(rf_pre,rf_pst,96,64,32,0.01,0,0.025,'us');
