@@ -1,2 +1,8 @@
-*.dcm *.avi *.rf *.zip *.rar *.zipx
+**/*.dcm
+**/*.avi
+**/*.rf
+**/*.zip
+**/*.rar
+**/*.zipx
+**/*.eye
 
