@@ -7,7 +7,7 @@ source env_setup.bash
 matlab
 ```
 
-And then, *in MATLAB*, run the script:
+And then, **in MATLAB**, run the script:
 
 ```
 invivo.m
